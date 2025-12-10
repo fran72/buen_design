@@ -1,5 +1,7 @@
+import 'package:buen_design/pages/caixa.dart';
 import 'package:buen_design/pages/carrito.dart';
 import 'package:buen_design/pages/carrito_wallapop.dart';
+import 'package:buen_design/pages/habanero.dart';
 import 'package:buen_design/pages/home.dart';
 import 'package:buen_design/pages/moncofar.dart';
 import 'package:buen_design/pages/scan_cal.dart';
@@ -64,6 +66,8 @@ class MyApp extends StatelessWidget {
         'moncofar': (BuildContext context) => const MoncofarPage(),
         'carrito': (BuildContext context) => const CarritoPage(),
         'scan_cal': (BuildContext context) => const ScanCalPage(),
+        'habanero': (BuildContext context) => const HabaneroPage(),
+        'caixa': (BuildContext context) => const CaixaPage(),
         'carrito_wallapop': (BuildContext context) =>
             const CarritoWallapopPage(),
       },

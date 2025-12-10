@@ -6,6 +6,8 @@ Drawer menuDrawer(BuildContext context) {
     {'icon': Icons.map, 'text': 'Moncofar', 'route': 'moncofar'},
     {'icon': Icons.map, 'text': 'Carrito', 'route': 'carrito'},
     {'icon': Icons.map, 'text': 'Scancal', 'route': 'scan_cal'},
+    {'icon': Icons.map, 'text': 'Habanero', 'route': 'habanero'},
+    {'icon': Icons.map, 'text': 'Caixa', 'route': 'caixa'},
     {
       'icon': Icons.map,
       'text': 'Carrito Wallapop',
