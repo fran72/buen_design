@@ -1,0 +1,10 @@
+export 'package:buen_design/pages/caixa.dart';
+export 'package:buen_design/pages/carrito.dart';
+export 'package:buen_design/pages/carrito_wallapop.dart';
+export 'package:buen_design/pages/habanero.dart';
+export 'package:buen_design/pages/home.dart';
+export 'package:buen_design/pages/moncofar.dart';
+export 'package:buen_design/pages/paralax.dart';
+export 'package:buen_design/pages/paralax_adv.dart';
+export 'package:buen_design/pages/scan_cal.dart';
+export 'package:buen_design/pages/slivers.dart';

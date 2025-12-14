@@ -8,6 +8,10 @@ Drawer menuDrawer(BuildContext context) {
     {'icon': Icons.map, 'text': 'Scancal', 'route': 'scan_cal'},
     {'icon': Icons.map, 'text': 'Habanero', 'route': 'habanero'},
     {'icon': Icons.map, 'text': 'Caixa', 'route': 'caixa'},
+    {'icon': Icons.map, 'text': 'Paralax', 'route': 'paralax'},
+    {'icon': Icons.map, 'text': 'Slivers franfolio', 'route': 'slivers'},
+    {'icon': Icons.map, 'text': 'Adeslas', 'route': 'adeslas'},
+    {'icon': Icons.map, 'text': 'ParalaxAdv', 'route': 'paralax_adv'},
     {
       'icon': Icons.map,
       'text': 'Carrito Wallapop',

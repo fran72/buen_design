@@ -1,10 +1,14 @@
+import 'package:buen_design/pages/adeslas.dart';
 import 'package:buen_design/pages/caixa.dart';
 import 'package:buen_design/pages/carrito.dart';
 import 'package:buen_design/pages/carrito_wallapop.dart';
 import 'package:buen_design/pages/habanero.dart';
 import 'package:buen_design/pages/home.dart';
 import 'package:buen_design/pages/moncofar.dart';
+import 'package:buen_design/pages/paralax.dart';
+import 'package:buen_design/pages/paralax_adv.dart';
 import 'package:buen_design/pages/scan_cal.dart';
+import 'package:buen_design/pages/slivers.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -68,6 +72,10 @@ class MyApp extends StatelessWidget {
         'scan_cal': (BuildContext context) => const ScanCalPage(),
         'habanero': (BuildContext context) => const HabaneroPage(),
         'caixa': (BuildContext context) => const CaixaPage(),
+        'paralax': (BuildContext context) => const ParallaxPage(),
+        'slivers': (BuildContext context) => const SliversPage(),
+        'paralax_adv': (BuildContext context) => const ParallaxAdvPage(),
+        'adeslas': (BuildContext context) => const AdeslasPage(),
         'carrito_wallapop': (BuildContext context) =>
             const CarritoWallapopPage(),
       },
