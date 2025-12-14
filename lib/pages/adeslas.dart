@@ -139,6 +139,11 @@ class _CategoriesState extends State<_Categories> {
             selected: selected,
             selectedColor: Colors.blue,
             backgroundColor: Colors.white,
+            shape: StadiumBorder(
+              side: BorderSide(
+                color: selected ? Colors.blue : Colors.grey.shade300,
+              ),
+            ),
             labelStyle: TextStyle(
               color: selected ? Colors.white : Colors.black,
             ),
