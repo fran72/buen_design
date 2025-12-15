@@ -2,6 +2,7 @@ import 'package:buen_design/pages/adeslas.dart';
 import 'package:buen_design/pages/caixa.dart';
 import 'package:buen_design/pages/carrito.dart';
 import 'package:buen_design/pages/carrito_wallapop.dart';
+import 'package:buen_design/pages/cityxerpa.dart';
 import 'package:buen_design/pages/habanero.dart';
 import 'package:buen_design/pages/home.dart';
 import 'package:buen_design/pages/moncofar.dart';
@@ -76,6 +77,7 @@ class MyApp extends StatelessWidget {
         'slivers': (BuildContext context) => const SliversPage(),
         'paralax_adv': (BuildContext context) => const ParallaxAdvPage(),
         'adeslas': (BuildContext context) => const AdeslasPage(),
+        'cityxerpa': (BuildContext context) => const CityXerpaPage(),
         'carrito_wallapop': (BuildContext context) =>
             const CarritoWallapopPage(),
       },
