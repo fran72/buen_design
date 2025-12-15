@@ -226,7 +226,7 @@ class _FeaturedList extends StatelessWidget {
                       top: Radius.circular(18),
                     ),
                     child: Image(
-                      image: AssetImage('../assets/cityxerpa/$index.jpg'),
+                      image: AssetImage('assets/cityxerpa/$index.jpg'),
                       fit: BoxFit.cover,
                     ),
                   ),
